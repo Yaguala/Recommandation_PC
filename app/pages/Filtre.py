@@ -30,13 +30,13 @@ with st.container():
 if selected == "Home":    
     st.session_state.selected_pc = None
     st.query_params.clear()
-    st.switch_page("app.py")
+    st.switch_page("App.py")
 if selected == "Filtre":
     selected =  "Filtre"
 if selected == "ChatBot":
     st.session_state.selected_pc = None
     st.query_params.clear()
-    st.switch_page("pages/Chatbot.py")
+    st.switch_page("pages/ChatBot.py")
 #if selected == "Contact":
 #    st.switch_page("pages/Contact.py")
 # -----------------------------------------------------------------------------------------------

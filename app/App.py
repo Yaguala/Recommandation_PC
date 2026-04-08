@@ -35,7 +35,7 @@ if selected == "Home":
 if selected == "Filtre":
     st.switch_page("pages/Filtre.py")
 if selected == "ChatBot":
-    st.switch_page("pages/Chatbot.py")
+    st.switch_page("pages/ChatBot.py")
 #if selected == "Contact":
 #    st.switch_page("pages/Contact.py")
 

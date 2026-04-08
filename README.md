@@ -56,7 +56,7 @@
   ## Application
   
   View on App:  
-  # Replace with actual link
+  https://recommandation-pc.streamlit.app
 </details>
 
 <details>
@@ -117,5 +117,5 @@
   ## Application
   
   View on App:  
-  # Replace with actual link
+  https://recommandation-pc.streamlit.app
 </details>

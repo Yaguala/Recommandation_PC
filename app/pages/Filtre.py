@@ -36,7 +36,7 @@ if selected == "Filtre":
 if selected == "ChatBot":
     st.session_state.selected_pc = None
     st.query_params.clear()
-    st.switch_page("pages/chatbot.py")
+    st.switch_page("pages/Chatbot.py")
 #if selected == "Contact":
 #    st.switch_page("pages/Contact.py")
 # -----------------------------------------------------------------------------------------------

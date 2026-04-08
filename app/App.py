@@ -33,9 +33,9 @@ with st.container():
 if selected == "Home":
     selected =  "Home"
 if selected == "Filtre":
-    st.switch_page("pages/filtre.py")
+    st.switch_page("pages/Filtre.py")
 if selected == "ChatBot":
-    st.switch_page("pages/chatbot.py")
+    st.switch_page("pages/Chatbot.py")
 #if selected == "Contact":
 #    st.switch_page("pages/Contact.py")
 

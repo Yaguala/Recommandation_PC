@@ -1,21 +1,11 @@
-import streamlit as st
-import pandas as pd
-import time
-#from google import genai
-#from google.genai import types
-#from google.genai.types import HttpOptions, ModelContent, Part, UserContent
-import google.generativeai as genai
 from google.generativeai import types
-import json # On a besoin de la bibliothèque JSON
 from pathlib import Path
-
-
-
 import google.generativeai as genai
-
+import pandas as pd
 import streamlit as st
-import os
 import json
+import time
+import os
 
 
 # --------------------------- Bar naviagation ----------------------------------
@@ -58,7 +48,7 @@ if selected == "ChatBot":
 
 
 # Liste de colluns
-uploaded_file = Path(__file__).parent.parent / "Data" / "pc_score_cpu_gpu.csv"
+uploaded_file = Path(__file__).parent.parent / "data" / "pc_score_cpu_gpu.csv"
 df = pd.read_csv(uploaded_file)
 Col_liste = list(df.columns)
 
@@ -178,7 +168,7 @@ def show_chatbot_page():
     mid.title("Le spécialiste de la Tech")
     mid.markdown("Bienvenue ! Posez-moi vos questions sur les ordinateurs portables.")
 
-    uploaded_file = Path(__file__).parent.parent / "Data" / "pc_score_cpu_gpu.csv"
+    uploaded_file = Path(__file__).parent.parent / "data" / "pc_score_cpu_gpu.csv"
 
     if uploaded_file is not None:
         # On charge le DataFrame une seule fois et on le met en cache Streamlit
